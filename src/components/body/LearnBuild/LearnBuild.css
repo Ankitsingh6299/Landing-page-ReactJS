@@ -1,0 +1,65 @@
+.heading{
+    text-align: center;
+    margin-top: 160px;
+    font-family: Raleway;
+    font-size: 30px;
+}
+.subhead{
+    padding-left: 50px;
+    font-family: Raleway;
+    padding-top: 30px;
+    
+}
+
+.subhead1{
+    padding-left: 50px;
+    font-family: Raleway;
+    
+}
+.content{
+    flex: 100%;
+    max-width: 50%;
+    padding-left: 50px;
+}
+.flex11{
+    background:rgba(24, 144, 255, 0.13);
+}
+.flex12{
+    display: flex;
+    justify-content:space-between;
+   
+    
+}
+.minflex1{
+padding-left: 50px;
+    
+}
+.minflex2{
+    
+    
+}
+.minflex3{
+    font-family: Raleway;
+   padding-right: 90px;
+  
+}
+.content1{
+    font-family: Raleway;
+    font-size: 15px;
+}
+@media only screen and (max-width:840px){
+.flex12{
+    flex-direction: column;
+}
+.minflex2{
+    padding-left: 50px;
+}
+.content{
+    max-width: 70%;
+    font-size: 16px;
+    padding-right: 20px;
+}
+.minflex3{
+    padding-left: 50px;
+}
+}

@@ -1,0 +1,114 @@
+.picflex{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.head{
+    margin-top: 120px;
+}
+.content1{
+    font-size: 16px;
+font-family: Raleway;
+max-width: 90%;
+}
+.pic1{
+    padding-left: 60px;
+}
+.pic2{
+    padding-left: 80px;
+}
+.pic3{
+    padding-left: 20px;
+}
+.picflex1{
+justify-content: flex-start;
+
+}
+.title1{
+    font-size: 17px;
+    font-family: Raleway;
+    padding-left: 70px;
+}
+.title3{
+    font-size: 17px;
+    font-family: Raleway;
+    padding-left: 14px;
+}
+.picflex2{
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+.content2{
+    max-width: 90%;
+    font-size: 16px;
+font-family: Raleway;
+}
+.picflex3{
+justify-content: flex-end;
+margin-top: 10px;
+
+}
+@media only screen and (max-width:1000px){
+    .picflex{
+        flex-direction: column;
+    }
+    
+    .picflex1{
+       
+      width: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .picflex2{
+      width: 100%;
+      flex-wrap: wrap;
+       
+    }
+    .picflex3{
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .pic1{
+        float: right;
+       text-align: center;
+    }
+    .pic2{
+        float: left;
+        padding-left: 0px;
+    }
+    .pic3{
+        float: right;
+    }
+}
+@media only screen and (max-width:500px){
+
+    .pic1{
+        float: none;
+        padding-left: 10px;
+    }
+    .picflex1{
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .picflex2{
+        justify-content: center;
+        text-align: center;
+    }
+    .picflex3{
+        justify-content: center;
+        text-align: center;
+    }
+    .pic3{
+        float: none;
+        padding-left: 10px;
+    }
+    .pic2{
+        float: none;
+        padding-left: 10px;
+    }
+    .title1{
+       padding: 0px;
+    }
+}

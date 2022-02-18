@@ -1,0 +1,61 @@
+.redirect-box{
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px gray;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    
+    
+    
+    justify-content: space-evenly;
+}
+.picture1{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    
+    padding-right: 10px;
+    
+}
+.picture2{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    padding-right: 10px
+
+}
+.redirect-box .First{
+    
+ 
+}
+.redirect-box .Second{
+    
+  
+}
+.redirect-box .Third{
+    
+    
+}
+@media only screen and (max-width:875px){
+    .redirect-box{
+        flex-direction: column;
+        height: 210px;
+        align-items: center;
+    }
+    .redirect-box .First{
+        margin: 5px;
+        padding: 0px;
+        
+    }
+    .redirect-box .Second{
+        margin: 5px;
+        padding: 0px;
+        
+    }
+    .redirect-box .Third{
+        margin: 5px;
+        padding: 0px;
+        padding-bottom: 10px;
+        
+    }
+}

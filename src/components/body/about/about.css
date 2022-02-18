@@ -1,0 +1,50 @@
+.about{
+    padding: 40px;
+
+}
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.picture{
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 30px;
+    padding-top: 30px;
+  
+    
+}
+.heading{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 36px;
+}
+.about-info{
+    font-size: 20px;
+    max-width: 50%;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.info-name{
+    color: blue;
+    font-size: 32px;
+}
+@media only screen and (max-width:875px){
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture{
+        padding-top: 0px;
+    }
+    
+    .about-info{
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+}
