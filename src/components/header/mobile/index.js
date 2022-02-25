@@ -8,22 +8,22 @@ function Mobile({isOpen,setIsOpen}) {
             </div>
             <div className='mobile-options'>
             <div className='mobile-option'>
-            <a href='#projects' >
+            <a href='#about' >
             Home
             </a>
         </div>
         <div className='mobile-option'>
-            <a href='#skills'>
+            <a href='#LearnPath'>
             Learning path
             </a>
         </div>
         <div className='mobile-option '>
-            <a href='#work'>
+            <a href='#ThingsToDo'>
             Blog
             </a>
         </div>
         <div className='mobile-option'>
-            <a href='#contact'>
+            <a href='#LearnAndBuild'>
             Courses
             </a>
         </div>
