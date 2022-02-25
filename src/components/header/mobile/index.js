@@ -13,7 +13,7 @@ function Mobile({isOpen,setIsOpen}) {
             </a>
         </div>
         <div className='mobile-option'>
-            <a href='#LearnPath'>
+            <a href='#Learnpath'>
             Learning path
             </a>
         </div>
